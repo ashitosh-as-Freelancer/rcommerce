@@ -1,0 +1,22 @@
+.minicart-modal {
+    .modal-dialog {
+       position: fixed;
+       top: 0;
+       right: 0;       
+       margin: 0; 
+       bottom: 0;
+       box-shadow: 0 0 10px #fff;
+       color: white;
+    }
+
+    .modal-content {
+        height: 100%;
+        width: 350px;
+        background-color: black;
+        
+        .modal-body {
+            max-height: 80%;
+            overflow-y: auto;
+        }
+    }
+}
