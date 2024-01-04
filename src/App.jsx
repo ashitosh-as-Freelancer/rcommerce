@@ -1,6 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "react-bootstrap";
-import "./App.css";
 import Header from "./components/Header";
 import Minicart from "./components/Minicart";
 import { MyContextProvider } from "./components/MyContext.jsx";

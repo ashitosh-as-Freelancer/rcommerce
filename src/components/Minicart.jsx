@@ -1,4 +1,3 @@
-import { useState, useContext } from "react";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 import "./minicart.css";
@@ -67,7 +66,7 @@ function Minicart() {
         </Modal.Body>
         <Modal.Footer>
           <div>
-            Cart Total : {state.cartTotal}
+            Cart Total : {`$` + state.cartTotal}
           </div>
           <NavLink to="/Cart" className='btn w-100' style={{backgroundColor: "#212529", color: "#fff"}}>Go To Cart</NavLink>
         </Modal.Footer>

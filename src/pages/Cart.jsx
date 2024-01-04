@@ -13,7 +13,7 @@ export default function Cart() {
   },[])
   
   return (
-    <Container className="text-white">
+    <Container className="text-white px-4">
       {state.items.length > 0 ? <div className="text-center" style={{fontSize: '40px', marginBottom: 30}}>Order Placed</div>: '' }
         {state.items.length > 0 ? <Row className="justify-content-center">
         <Col xs={12} lg={7} className="px-0 mb-2">
